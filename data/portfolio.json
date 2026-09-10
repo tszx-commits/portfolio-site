@@ -1,118 +1,64 @@
 {
   "profile": {
-    "name": "你的名字",
-    "title": "视觉特效 / 三维建模艺术家",
-    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=portfolio",
-    "bio": "热爱视觉创作，专注于特效制作、三维建模与AIGC探索。拥有丰富的项目经验，擅长将创意转化为高质量的视觉作品。",
-    "email": "your.email@example.com",
-    "phone": "+86 138-0000-0000",
-    "location": "北京，中国",
+    "name": "胡志彬",
+    "title": "数字媒体艺术专业",
+    "avatar": "assets/avatar.jpg",
+    "bio": "数字媒体艺术专业27年毕业学生，就读于首都师范大学科德学院，本科毕业。欢迎您查看我的作品集网站。",
+    "email": "2291177827@qq.com",
+    "phone": "+8618410077144",
+    "location": "北京",
     "links": {
-      "github": "https://github.com/yourusername",
-      "bilibili": "https://space.bilibili.com/yourid",
-      "artstation": "https://www.artstation.com/yourname"
+      "github": "",
+      "website": "",
+      "linkedin": "",
+      "bilibili": "",
+      "artstation": ""
     }
   },
   "theme": {
     "primaryColor": "#6366f1",
-    "secondaryColor": "#8b5cf6",
-    "backgroundColor": "#0f0f1a",
-    "cardBackgroundColor": "#1a1a2e",
-    "textColor": "#e2e8f0",
+    "secondaryColor": "#22d3ee",
+    "backgroundColor": "#0f172a",
+    "cardBackgroundColor": "#1e293b",
+    "textColor": "#f8fafc",
     "mutedTextColor": "#94a3b8",
-    "fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    "fontFamily": "system-ui, -apple-system, sans-serif"
   },
   "categories": [
-    { "id": "vfx", "name": "特效", "icon": "✨" },
-    { "id": "3d", "name": "三维建模", "icon": "🧊" },
-    { "id": "aigc", "name": "AIGC", "icon": "🤖" },
-    { "id": "editing", "name": "剪辑", "icon": "🎬" },
-    { "id": "game", "name": "游戏制作", "icon": "🎮" }
+    {"id": "vfx", "name": "特效", "icon": "✨"},
+    {"id": "3d", "name": "三维建模", "icon": "🧊"},
+    {"id": "aigc", "name": "AIGC", "icon": "🤖"},
+    {"id": "editing", "name": "剪辑", "icon": "🎬"},
+    {"id": "game", "name": "游戏制作", "icon": "🎮"}
   ],
   "works": [
-    {
-      "id": "work-001",
-      "title": "示例作品：粒子特效演示",
-      "category": "vfx",
-      "cover": "https://picsum.photos/seed/vfx1/800/600",
-      "description": "这是一个使用 Houdini 制作的粒子特效项目，模拟了火焰与烟雾的真实物理效果。",
-      "tags": ["Houdini", "粒子", "火焰"],
-      "date": "2024-03",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/vfx1a/1200/800", "caption": "最终渲染效果" },
-        { "type": "image", "url": "https://picsum.photos/seed/vfx1b/1200/800", "caption": "节点设置" }
-      ],
-      "files": [
-        { "name": "项目工程文件.zip", "url": "#", "size": "256MB" }
-      ]
-    },
-    {
-      "id": "work-002",
-      "title": "示例作品：科幻场景建模",
-      "category": "3d",
-      "cover": "https://picsum.photos/seed/3d1/800/600",
-      "description": "使用 Blender 与 Substance Painter 制作的赛博朋克风格城市场景，包含完整的 PBR 材质。",
-      "tags": ["Blender", "PBR", "场景"],
-      "date": "2024-01",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/3d1a/1200/800", "caption": "最终渲染" },
-        { "type": "image", "url": "https://picsum.photos/seed/3d1b/1200/800", "caption": "线框模式" }
-      ],
-      "files": []
-    },
-    {
-      "id": "work-003",
-      "title": "示例作品：AI 角色概念设计",
-      "category": "aigc",
-      "cover": "https://picsum.photos/seed/aigc1/800/600",
-      "description": "基于 Stable Diffusion 与 ControlNet 的角色概念设计流程，从草图到最终成图的完整工作流。",
-      "tags": ["Stable Diffusion", "ControlNet", "角色设计"],
-      "date": "2024-02",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/aigc1a/1200/800", "caption": "最终成图" },
-        { "type": "image", "url": "https://picsum.photos/seed/aigc1b/1200/800", "caption": "生成过程" }
-      ],
-      "files": []
-    },
-    {
-      "id": "work-004",
-      "title": "示例作品：短片剪辑",
-      "category": "editing",
-      "cover": "https://picsum.photos/seed/edit1/800/600",
-      "description": "使用 Premiere Pro 与 DaVinci Resolve 完成的 3 分钟短片剪辑，包含调色与音效设计。",
-      "tags": ["Premiere", "调色", "短片"],
-      "date": "2023-12",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/edit1a/1200/800", "caption": "时间线截图" }
-      ],
-      "files": []
-    },
-    {
-      "id": "work-005",
-      "title": "示例作品：独立游戏 Demo",
-      "category": "game",
-      "cover": "https://picsum.photos/seed/game1/800/600",
-      "description": "使用 Unity 开发的 2D 横版动作游戏 Demo，包含完整的战斗系统与关卡设计。",
-      "tags": ["Unity", "C#", "2D"],
-      "date": "2024-04",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/game1a/1200/800", "caption": "游戏画面" },
-        { "type": "image", "url": "https://picsum.photos/seed/game1b/1200/800", "caption": "场景编辑器" }
-      ],
-      "files": []
-    },
-    {
-      "id": "work-006",
-      "title": "示例作品：流体模拟特效",
-      "category": "vfx",
-      "cover": "https://picsum.photos/seed/vfx2/800/600",
-      "description": "RealFlow 流体模拟项目，制作了水与玻璃交互的真实效果。",
-      "tags": ["RealFlow", "流体", "渲染"],
-      "date": "2023-11",
-      "media": [
-        { "type": "image", "url": "https://picsum.photos/seed/vfx2a/1200/800", "caption": "最终效果" }
-      ],
-      "files": []
-    }
+    {"id":"work-vfx-001","title":"25年AE特效制作","category":"vfx","cover":"assets/work-vfx-001-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-001-01.mp4","caption":"角色素材.mp4"},{"type":"image","url":"assets/work-vfx-001-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-002","title":"25年AE作品","category":"vfx","cover":"assets/work-vfx-002-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-002-01.mp4","caption":"合成 1.mp4"},{"type":"image","url":"assets/work-vfx-002-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-003","title":"26年MG动画-北京旅游路线","category":"vfx","cover":"assets/work-vfx-003-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-vfx-003-01.mp4","caption":"北京旅游路线.mp4"},{"type":"image","url":"assets/work-vfx-003-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-004","title":"26年特效制作-赛博跟随","category":"vfx","cover":"assets/work-vfx-004-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-vfx-004-01.mp4","caption":"6.2赛博跟随街拍.mp4"},{"type":"image","url":"assets/work-vfx-004-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-005","title":"26年MG动画-猫办公","category":"vfx","cover":"assets/work-vfx-005-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-vfx-005-01.mp4","caption":"猫办公.mp4"},{"type":"image","url":"assets/work-vfx-005-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-006","title":"26年MG动画-日夜","category":"vfx","cover":"assets/work-vfx-006-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-vfx-006-01.mp4","caption":"日夜.mp4"},{"type":"image","url":"assets/work-vfx-006-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-007","title":"25年AE特效-Design Spin","category":"vfx","cover":"assets/work-vfx-007-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-007-01.mp4","caption":"Design Spin Out.mp4"},{"type":"image","url":"assets/work-vfx-007-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-008","title":"25年AE特效-合成","category":"vfx","cover":"assets/work-vfx-008-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-008-01.mp4","caption":"合成 1.mp4"},{"type":"image","url":"assets/work-vfx-008-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-009","title":"25年AE特效-Polygon","category":"vfx","cover":"assets/work-vfx-009-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-009-01.mp4","caption":"Polygon.mp4"},{"type":"image","url":"assets/work-vfx-009-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-010","title":"25年AE特效-合成","category":"vfx","cover":"assets/work-vfx-010-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-010-01.mp4","caption":"合成 1.mp4"},{"type":"image","url":"assets/work-vfx-010-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-011","title":"25年AE特效-Particle Zoom","category":"vfx","cover":"assets/work-vfx-011-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-011-01.mp4","caption":"Partide Zoom Comp.mp4"},{"type":"image","url":"assets/work-vfx-011-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-012","title":"25年AE特效-合成","category":"vfx","cover":"assets/work-vfx-012-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-vfx-012-01.mp4","caption":"合成 1.mp4"},{"type":"image","url":"assets/work-vfx-012-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-vfx-013","title":"26年AE画面UI创作","category":"vfx","cover":"assets/work-vfx-013-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-vfx-013-01.mp4","caption":"演示1.mp4"},{"type":"image","url":"assets/work-vfx-013-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-3d-001","title":"25年3月作业作品","category":"3d","cover":"assets/work-3d-001-cover.png","description":"","tags":[],"date":"2025-03","media":[{"type":"video","url":"assets/work-3d-001-01.mp4","caption":"作品演示.mp4"},{"type":"image","url":"assets/work-3d-001-02.png","caption":"渲染效果"}],"files":[]},
+    {"id":"work-3d-002","title":"25年作业作品-Forest Scene","category":"3d","cover":"assets/work-3d-002-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-3d-002-01.mp4","caption":"Forest_Scene_07_1.mp4"},{"type":"image","url":"assets/work-3d-002-02.png","caption":"渲染效果"}],"files":[]},
+    {"id":"work-3d-003","title":"24年MAYA建模动画-zy16面部测试","category":"3d","cover":"assets/work-3d-003-cover.gif","description":"","tags":[],"date":"2024","media":[{"type":"image","url":"assets/work-3d-003-01.gif","caption":"zy16面部测试.gif"}],"files":[]},
+    {"id":"work-3d-004","title":"24年MAYA建模动画-丢垃圾","category":"3d","cover":"assets/work-3d-004-cover.gif","description":"","tags":[],"date":"2024","media":[{"type":"image","url":"assets/work-3d-004-01.gif","caption":"丢垃圾.gif"}],"files":[]},
+    {"id":"work-3d-005","title":"24年MAYA建模动画-鱼游","category":"3d","cover":"assets/work-3d-005-cover.gif","description":"","tags":[],"date":"2024","media":[{"type":"image","url":"assets/work-3d-005-01.gif","caption":"鱼游1.gif"}],"files":[]},
+    {"id":"work-3d-006","title":"24年MAYA建模动画-robot跑步","category":"3d","cover":"assets/work-3d-006-cover.gif","description":"","tags":[],"date":"2024","media":[{"type":"image","url":"assets/work-3d-006-01.gif","caption":"robot跑步.gif"}],"files":[]},
+    {"id":"work-3d-007","title":"24年MAYA建模动画-dance带衣","category":"3d","cover":"assets/work-3d-007-cover.gif","description":"","tags":[],"date":"2024","media":[{"type":"image","url":"assets/work-3d-007-01.gif","caption":"dance带衣.gif"}],"files":[]},
+    {"id":"work-3d-008","title":"24年MAYA建模动画3D追踪","category":"3d","cover":"assets/work-3d-008-cover.png","description":"","tags":[],"date":"2024","media":[{"type":"video","url":"assets/work-3d-008-01.mp4","caption":"大作业.mp4"},{"type":"image","url":"assets/work-3d-008-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-aigc-001","title":"26年AIGC视频-剧情故事短片","category":"aigc","cover":"assets/work-aigc-001-cover.png","description":"","tags":[],"date":"2026","media":[{"type":"video","url":"assets/work-aigc-001-01.mp4","caption":"剧情故事短片大作业.mp4"},{"type":"image","url":"assets/work-aigc-001-02.png","caption":"画面参考"}],"files":[]},
+    {"id":"work-aigc-002","title":"comfyUI工作流生图生视频","category":"aigc","cover":"assets/work-aigc-002-cover.gif","description":"","tags":[],"date":"2025","media":[{"type":"image","url":"assets/work-aigc-002-01.png","caption":"工作流展示1"},{"type":"image","url":"assets/work-aigc-002-02.png","caption":"工作流展示2"},{"type":"image","url":"assets/work-aigc-002-03.png","caption":"工作流展示3"},{"type":"image","url":"assets/work-aigc-002-04.gif","caption":"生成效果.gif"}],"files":[]},
+    {"id":"work-aigc-003","title":"comfyUI工作流AI替换视频","category":"aigc","cover":"assets/work-aigc-003-cover.gif","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-aigc-003-01.mp4","caption":"AI替换视频演示.mp4"},{"type":"image","url":"assets/work-aigc-003-02.gif","caption":"效果对比.gif"}],"files":[]},
+    {"id":"work-aigc-004","title":"AI生成定格动画","category":"aigc","cover":"assets/work-aigc-004-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-aigc-004-01.mp4","caption":"定格动画视频.mp4"},{"type":"image","url":"assets/work-aigc-004-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-editing-001","title":"25年真人演绎剪辑","category":"editing","cover":"assets/work-editing-001-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-editing-001-01.mp4","caption":"大作业.mp4"},{"type":"image","url":"assets/work-editing-001-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-editing-002","title":"25年真人演绎剪辑-合作作品","category":"editing","cover":"assets/work-editing-002-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-editing-002-01.mp4","caption":"崔瑞昊胡志彬合作.mp4"},{"type":"image","url":"assets/work-editing-002-02.png","caption":"作品展示"}],"files":[]},
+    {"id":"work-game-001","title":"UE5简单闯关游戏设计实录","category":"game","cover":"assets/work-game-001-cover.png","description":"","tags":[],"date":"2025","media":[{"type":"video","url":"assets/work-game-001-01.mp4","caption":"游戏演示实录.mp4"},{"type":"image","url":"assets/work-game-001-02.png","caption":"游戏画面1"},{"type":"image","url":"assets/work-game-001-03.png","caption":"游戏画面2"},{"type":"image","url":"assets/work-game-001-04.png","caption":"游戏画面3"}],"files":[]}
   ]
 }
